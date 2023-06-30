@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-size: medium;
+  overflow-x: hidden !important;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-size: 3rem;
+}
+.formdata,
+.formdata input {
+  font-size: 1.4rem !important;
+}
+.list button {
+  margin-top: 5rem !important;
+}
+.error {
+  font-size: 1.2rem !important;
+  text-align: center;
+  color: red;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .userdata thead {
+    font-size: 3rem !important;
+  }
+  .userdata tbody {
+    font-size: 1.1rem !important;
+  }
+  button {
+    font-size: 1.5rem !important;
+  }
+  a {
+    font-size: 2rem !important;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Laptops and desktops */
+@media screen and (min-width: 1025px) {
+  .userdata thead {
+    font-size: 1.5rem !important;
+  }
+  .userdata tbody {
+    font-size: 1.3rem !important;
+  }
+  button {
+    font-size: 1.1rem !important;
+  }
+  a {
+    font-size: 1.1rem !important;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Phones (portrait and landscape) */
+@media screen and (max-width: 767px) {
+  .userdata thead {
+    font-size: 1.3rem !important;
+  }
+  .userdata tbody {
+    font-size: 1rem !important;
+  }
+  button {
+    font-size: 1rem !important;
+  }
+  a {
+    font-size: 1rem !important;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "dipali",
+      "email": "rokadedipali808@gmail.com",
+      "contact": "8888136460",
+      "id": 1
+    },
+    {
+      "name": "somesh",
+      "email": "someshgavali@gmail.com",
+      "contact": "2345678910",
+      "id": 2
+    },
+    {
+      "name": "sharan",
+      "email": "sharankeerthy@gmail.com",
+      "contact": "7277727223",
+      "id": 3
+    }
+  ]
+}

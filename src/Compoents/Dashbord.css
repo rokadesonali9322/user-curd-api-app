@@ -1,0 +1,16 @@
+.container thead {
+  font-size: 1.2rem;
+}
+.container tbody {
+  font-size: 1.1rem;
+}
+.container a {
+  font-size: 1.3rem;
+}
+.container button {
+  font-size: 1.3rem;
+}
+
+.container {
+  overflow-x: hidden !important;
+}
